@@ -1,0 +1,233 @@
+/* Se tenuto a pagina intera non da problemi di formattazione, se rimpicciolito la prima
+section perde di qualità */
+
+/* General */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap');
+
+body {
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    /* Ho cambiato la line-height perchè con 1.5 mi usciva sproporzionato rispetto all'immagine */
+    line-height: 1.1;
+    color: #25a2c3;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 40px;
+
+}
+
+h3 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #25a2c3;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #393d41;
+    line-height: 1.65;
+
+}
+
+.fas {
+    color: white;
+}
+
+/* Header */
+
+#logo-div {
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 2.5%;
+}
+
+#logo-div img {
+    width: 10%;
+}
+
+#header-div {
+    text-align: center;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 22%;
+    padding-right: 22%
+}
+
+#header-div p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+/* Main */
+
+main {
+    padding-top: 30px;
+}
+
+#notebook-photo {
+
+    margin-left: 50px;
+    text-align: right;
+    display: inline-block;
+    width: 40%;
+}
+
+#notebook-photo img {
+    padding-top: 15px;
+    width: 65%;
+    border-radius: 100%;
+}
+
+#first-section{
+
+    margin-left: 100px;
+    width: 40%;
+    display: inline-block;
+    padding-bottom: 90px;
+    padding-top: 50px;
+}
+
+#first-section p {
+    padding-right: 120px;
+}
+
+#orange-section{
+
+    text-align: center;
+    background-color: #e22d0e;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#small-paragraph {
+    font-size: 0.8em;
+}
+
+#italic {
+
+    font-size: 1.8em;
+    font-style: italic;
+    color: white;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#orange-section p {
+    color: white;
+}
+
+#last-section {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+/* Article */
+
+article{
+    width: 420px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+article div{
+    width: 100%;
+    border: solid 2px #dee1e3;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 60px;
+
+}
+
+article img{
+    height: 270px;
+    width: 100%;
+}
+
+#last-section p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Aside */
+
+footer {
+    color: #c8e7f0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: #25a2c3;
+}
+
+aside {
+
+    text-align: left;
+    width: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+aside a {
+    color: #c8e7f0;
+}
+
+
+address {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.65;
+    color: #c8e7f0;
+}
+
+#footer-paragraph {
+
+    width: 17%;
+    display: inline-block;
+    color: #c8e7f0;
+    border-top: solid #c8e7f0 2px;
+    padding-top: 30px;
+    font-size: 0.8em;
+}
+
+#footer-paragraph a {
+    color: #c8e7f0;
+}
